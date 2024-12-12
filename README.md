@@ -32,6 +32,18 @@ The three questions consist of the users favorite team, coach, and quarterback.
 * Be sure all files have uploaded to PyCharm correctly
 * Enter the following code into the terminal
 ```
+python manage.py makemigrations
+```
+* Next, enter the following code into the terminal
+```
+python manage.py migrate
+```
+* Next, enter the following code into the terminal and create an admin account
+```
+python manage.py createsuperuser
+```
+* Next, enter the following code into the terminal
+```
 python manage.py runserver
 ```
 * Select the server link "http://127.0.0.1:8000/"
